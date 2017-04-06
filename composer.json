@@ -1,0 +1,23 @@
+{
+    "name": "ssistemas/searchable",
+    "description": "Laravel 5 searchable",
+    "keywords": ["laravel", "eloquent", "search", "searchable", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santiago Lima Monteiro",
+            "email": "santiago.l.monteiro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ssistemas\\Searchable\\": "src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.6.4",
+        "illuminate/database": "~5.0"
+    }
+}
